@@ -1,3 +1,8 @@
+//GameSession by Alex Dine
+//101264627 on Sept 26th
+//Scene loader, basic logic
+//v1.0
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
