@@ -17,10 +17,10 @@ public class LevelLoader : MonoBehaviour
         SceneManager.LoadScene("HowToScreen");
     }
 
-    //starts a new game sessions
+    //starts a new game session and loads game scene
     public void LoadGame()
     {
-        //SceneManager.LoadScene("");
+        SceneManager.LoadScene("PlayScene");
         if (FindObjectsOfType<GameSession>().Length > 0)
         {
             Destroy(FindObjectOfType<GameSession>().gameObject);
