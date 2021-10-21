@@ -1,4 +1,4 @@
-//GameSession by Alex Dine
+//LevelLoader by Alex Dine
 //101264627 on Sept 26th
 //Scene loader, basic logic
 //v1.0
@@ -13,23 +13,19 @@ public class LevelLoader : MonoBehaviour
     //takes player back to main menu screen
     public void StartMenu()
     {
-        SceneManager.LoadScene("MenuScreen");
+        StartCoroutine(MMenuDelay());
     }
 
     //takes player to the how to play screen
     public void HowToScreen()
     {
-        SceneManager.LoadScene("HowToScreen");
+        StartCoroutine(HowToDelay());
     }
 
     //starts a new game session and loads game scene
     public void LoadGame()
     {
-        SceneManager.LoadScene("PlayScene");
-        if (FindObjectsOfType<GameSession>().Length > 0)
-        {
-            Destroy(FindObjectOfType<GameSession>().gameObject);
-        }
+        StartCoroutine(PlayDelay());
     }
 
     public void GameOver()
@@ -41,5 +37,27 @@ public class LevelLoader : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("GameOverScreen");
+    }
+
+    private IEnumerator MMenuDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("MenuScreen");
+    }
+
+    private IEnumerator HowToDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("HowToScreen");
+    }
+
+    private IEnumerator PlayDelay()
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene("PlayScene");
+        if (FindObjectsOfType<GameSession>().Length > 0)
+        {
+            Destroy(FindObjectOfType<GameSession>().gameObject);
+        }
     }
 }
