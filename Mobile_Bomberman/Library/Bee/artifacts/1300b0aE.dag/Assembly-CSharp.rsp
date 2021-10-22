@@ -345,8 +345,16 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VSSettingsProvider.ref.dll"
+"Assets/Scripts/BombBehaviour.cs"
+"Assets/Scripts/BombBlockerBehaviour.cs"
+"Assets/Scripts/EnemyBehaviour.cs"
+"Assets/Scripts/ExplosionBehaviour.cs"
 "Assets/Scripts/GameSession.cs"
 "Assets/Scripts/LevelLoader.cs"
+"Assets/Scripts/PlayerBehaviour.cs"
+"Assets/Scripts/RandomSpawner.cs"
+"Assets/Scripts/ScoreCounter.cs"
+"Assets/Scripts/ScoreUpdater.cs"
 -langversion:8.0
 
 /deterministic

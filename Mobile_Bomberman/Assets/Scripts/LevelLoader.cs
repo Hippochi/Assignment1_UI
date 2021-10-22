@@ -1,7 +1,7 @@
 //LevelLoader by Alex Dine
 //101264627 on Sept 26th
 //Scene loader, basic logic
-//v1.0
+//v2.0
 
 using System.Collections;
 using System.Collections.Generic;
@@ -10,7 +10,13 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
+    public GameObject player;
     //takes player back to main menu screen
+
+    void Update()
+    {
+        if (player.GetComponent<PlayerBehaviour>().lives <= 0) { GameOver(); }
+    }
     public void StartMenu()
     {
         StartCoroutine(MMenuDelay());
@@ -25,6 +31,7 @@ public class LevelLoader : MonoBehaviour
     //starts a new game session and loads game scene
     public void LoadGame()
     {
+        
         StartCoroutine(PlayDelay());
     }
 

@@ -3,12 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - EmptyTile
+  - PlayerTile
+  - BlockedTile
+  - Enemy
+  - Explosion
+  - Box
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - boomba
   - Water
   - UI
   - 
