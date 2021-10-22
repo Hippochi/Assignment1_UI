@@ -10,12 +10,16 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    public GameObject player;
+    //public GameObject player;
     //takes player back to main menu screen
 
     void Update()
     {
-        if (player.GetComponent<PlayerBehaviour>().lives <= 0) { GameOver(); }
+
+        if (FindObjectsOfType<PlayerBehaviour>().Length == 1)
+        {
+            if (FindObjectOfType<PlayerBehaviour>().lives <= 0) { GameOver(); }
+        }
     }
     public void StartMenu()
     {
@@ -62,9 +66,10 @@ public class LevelLoader : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene("PlayScene");
-        if (FindObjectsOfType<GameSession>().Length > 0)
+
+        if (FindObjectsOfType<ScoreCounter>().Length > 0)
         {
-            Destroy(FindObjectOfType<GameSession>().gameObject);
+            Destroy(FindObjectOfType<ScoreCounter>().gameObject);
         }
     }
 }

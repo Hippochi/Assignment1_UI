@@ -8,7 +8,7 @@ using UnityEngine;
 
 public class BombBehaviour : MonoBehaviour
 {
-    public float boomTime = 2f;
+    public float boomTime = 1.5f;
 
     public BombBlockerBehaviour upDetector;
     public BombBlockerBehaviour downDetector;

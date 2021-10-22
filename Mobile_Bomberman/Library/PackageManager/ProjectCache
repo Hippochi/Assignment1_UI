@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637682098428035351
-    m_Hash: 1806708376
+      ticks: 637705335490783149
+    m_Hash: 631953100
   m_LockFileStatus:
     m_FilePath: H:/School work/Mobile/Assignment1/Assignment1_UI/Mobile_Bomberman/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637682098828483164
-    m_Hash: 2755053527
+      ticks: 637705335491081994
+    m_Hash: 1399505858
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -81,6 +81,7 @@ m_ResolvedPackages:
     - 3.2.9
     - 3.2.10
     - 3.2.11
+    - 3.2.13
     - 4.0.0
     - 4.0.1
     - 4.1.0
@@ -100,18 +101,23 @@ m_ResolvedPackages:
     - 5.0.5
     - 5.0.6
     - 5.0.7
+    - 5.0.8
+    - 5.0.9
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.1
     - 6.0.3
     - 6.0.4
     - 6.0.5
+    - 6.0.7
     - 7.0.0-pre.2
     - 7.0.0-pre.3
     - 7.0.0
+    - 7.0.1
     compatible:
     - 6.0.5
-    verified: 6.0.5
+    - 6.0.7
+    verified: 6.0.7
   dependencies:
   - name: com.unity.2d.common
     version: 5.0.0
@@ -287,6 +293,7 @@ m_ResolvedPackages:
     - 2.1.5
     - 2.1.6
     - 2.1.8
+    - 2.1.9
     - 3.0.0
     - 3.1.1
     - 3.1.3
@@ -298,18 +305,23 @@ m_ResolvedPackages:
     - 4.0.1
     - 4.0.2
     - 4.1.0
+    - 4.1.1
+    - 4.1.2
     - 5.0.0-pre.1
     - 5.0.0-pre.2
     - 5.0.1
     - 5.0.3
     - 5.0.4
+    - 5.0.6
     - 6.0.0-pre.2
     - 6.0.0-pre.3
     - 6.0.0-pre.4
     - 6.0.0
+    - 6.0.1
     compatible:
     - 5.0.4
-    verified: 5.0.4
+    - 5.0.6
+    verified: 5.0.6
   dependencies:
   - name: com.unity.2d.common
     version: 5.0.0
@@ -490,16 +502,20 @@ m_ResolvedPackages:
     - 5.1.2
     - 5.1.3
     - 5.1.4
+    - 5.1.5
     - 6.0.0-pre.1
     - 6.0.0-pre.2
     - 6.0.0
     - 6.0.1
+    - 6.0.2
     - 7.0.0-pre.2
     - 7.0.0-pre.3
     - 7.0.0
+    - 7.0.2
     compatible:
     - 6.0.1
-    verified: 6.0.1
+    - 6.0.2
+    verified: 6.0.2
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
@@ -661,6 +677,10 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.2
     - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.15.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -675,6 +695,10 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.10.2
     - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.15.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -1014,99 +1038,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.3
     nextVersion: 
-- packageId: com.unity.mobile.notifications@1.4.2
-  testable: 0
-  isDirectDependency: 1
-  version: 1.4.2
-  source: 1
-  resolvedPath: H:\School work\Mobile\Assignment1\Assignment1_UI\Mobile_Bomberman\Library\PackageCache\com.unity.mobile.notifications@1.4.2
-  assetPath: Packages/com.unity.mobile.notifications
-  name: com.unity.mobile.notifications
-  displayName: Mobile Notifications
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'Mobile Notifications package adds support for scheduling local repeatable
-    or one-time notifications on iOS and Android.
-
-
-    Requires iOS 10 and Android
-    4.4 or above.'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.4
-    - 1.0.0-preview.5
-    - 1.0.0-preview.7
-    - 1.0.0-preview.8
-    - 1.0.0-preview.9
-    - 1.0.0-preview.10
-    - 1.0.0-preview.13
-    - 1.0.0-preview.17
-    - 1.0.0-preview.21
-    - 1.0.0-preview.23
-    - 1.0.2
-    - 1.0.3-preview
-    - 1.0.3-preview.3
-    - 1.0.3-preview.4
-    - 1.0.3-preview.5
-    - 1.0.3-preview.6
-    - 1.0.3
-    - 1.0.4-preview.1
-    - 1.0.4-preview.2
-    - 1.0.4-preview.3
-    - 1.0.4-preview.4
-    - 1.0.4-preview.5
-    - 1.0.4-preview.6
-    - 1.0.4-preview.9
-    - 1.1.0-preview
-    - 1.2.0-preview
-    - 1.2.1-preview
-    - 1.3.0
-    - 1.3.2
-    - 1.4.1
-    - 1.4.2
-    compatible:
-    - 1.4.2
-    verified: 1.4.2
-  dependencies:
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.androidjni
-    version: 1.0.0
-  keywords:
-  - Android
-  - iOS
-  - Notifications
-  - Mobile
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637635896040000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/com.unity.mobile.notifications.git
-    revision: 6e1b6e1acbe5d585c8d9557e82a9b2b274aecfa5
-    path: 
-  unityLifecycle:
-    version: 1.4.2
-    nextVersion: 
 - packageId: com.unity.test-framework@1.1.29
   testable: 0
   isDirectDependency: 1
@@ -1158,9 +1089,11 @@ m_ResolvedPackages:
     - 1.1.26
     - 1.1.27
     - 1.1.29
+    - 1.1.30
     compatible:
     - 1.1.29
-    verified: 1.1.29
+    - 1.1.30
+    verified: 1.1.30
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -1442,21 +1375,25 @@ m_ResolvedPackages:
     - 1.5.4
     - 1.5.5
     - 1.5.6
+    - 1.5.7
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
     - 1.6.0-pre.5
     - 1.6.1
     - 1.6.2
+    - 1.6.3
     compatible:
     - 1.5.6
+    - 1.5.7
     - 1.6.0-pre.1
     - 1.6.0-pre.3
     - 1.6.0-pre.4
     - 1.6.0-pre.5
     - 1.6.1
     - 1.6.2
-    verified: 1.5.6
+    - 1.6.3
+    verified: 1.5.7
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -1606,11 +1543,14 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.5
+    - 1.8.0-pre.1
     compatible:
     - 1.6.1
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.5
     verified: 1.6.1
   dependencies:
   - name: com.unity.ugui
@@ -3589,10 +3529,25 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
     - 1.2.1
+    - 1.2.4
     compatible:
     - 1.2.1
-    verified: 1.2.1
+    - 1.2.4
+    verified: 1.2.4
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3609,12 +3564,12 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637324062630000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    url: git+https://github.com/Unity-Technologies/Unity.Mathematics.git
     revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
     path: 
   unityLifecycle:
@@ -3641,7 +3596,29 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
     - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
     compatible:
     - 5.0.0
     verified: 5.0.0
@@ -3677,7 +3654,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637526395060000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3709,10 +3686,30 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.4
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
     - 5.0.0
+    - 5.0.1
     compatible:
     - 5.0.0
-    verified: 5.0.0
+    - 5.0.1
+    verified: 5.0.1
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3730,7 +3727,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637526399200000000
   documentationUrl: 
   hasRepository: 1
   repository:

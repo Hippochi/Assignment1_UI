@@ -30,7 +30,7 @@ public class RandomSpawner : MonoBehaviour
 
     private void Spawn()
     {
-        if (Random.Range(0,3) == 2)
+        if (Random.Range(0,4) == 3)
         {
             enemyOrBox = true;
         }

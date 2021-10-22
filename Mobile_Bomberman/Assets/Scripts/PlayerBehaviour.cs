@@ -34,9 +34,9 @@ public class PlayerBehaviour : MonoBehaviour
         isUp = false;
         isDown = false;
         lives = 3;
-        life1.active = true;
-        life2.active = true;
-        life3.active = true;
+        life1.SetActive(true);
+        life2.SetActive(true);
+        life3.SetActive(true);
     }
 
     void Update()
@@ -72,19 +72,19 @@ public class PlayerBehaviour : MonoBehaviour
             animator.SetFloat("Vertical", -1);
         }
         
-        if (lives == 2 )
+        if (lives < 3 )
         {
-            life3.active = false;
+            life3.SetActive(false);
         }
 
-        if (lives == 1)
+        if (lives <2)
         {
-            life2.active = false;
+            life2.SetActive(false);
         }
 
-        if (lives == 0)
+        if (lives < 1)
         {
-            life1.active = false;
+            life1.SetActive(false);
         }
 
         if (!isDown && !isLeft && !isRight && !isUp) { animator.SetFloat("Speed", 0); }
@@ -99,12 +99,12 @@ public class PlayerBehaviour : MonoBehaviour
             AudioSource.PlayClipAtPoint(HurtAudios, Camera.main.transform.position);
         }
 
-        if (col.gameObject.tag == "Box")
-        {
+        //if (col.gameObject.tag == "Box")
+        //{
             
-            ScoreCounter.instance.curScore += 5;
-            Destroy(col.gameObject);
-        }
+        //    ScoreCounter.instance.curScore += 5;
+        //    Destroy(col.gameObject);
+        //}
     }
 
     void OnTriggerEnter2D(Collider2D col)
